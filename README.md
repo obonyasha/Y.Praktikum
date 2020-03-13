@@ -1,6 +1,6 @@
 # Регулярные выражения  
 ## Степанова Татьяна  
-## (https://github.com/obonyasha/obonyasha.github.io)  
+## https://github.com/obonyasha/obonyasha.github.io 
 
 Актуальная версия проекта - **v0.0.1**  
 
