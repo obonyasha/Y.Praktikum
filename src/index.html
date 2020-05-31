@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Regular Expressions</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css%>">
 </head>
 <body>
     <header class="header">
@@ -38,6 +38,7 @@
                 </fieldset>
             </form>
         </div>
-    </main>     
+    </main>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>     
 </body>
 </html>
