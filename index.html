@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Regular Expressions</title>
-    <link rel="stylesheet" href="style.8aaf8a153c5a7b344750.css?f8ad20d3d9ab1a43a0d4">
+    <link rel="stylesheet" href="style.8aaf8a153c5a7b344750.css?34f52162ffb459d58da6">
 </head>
 <body>
     <header class="header">
@@ -31,7 +31,7 @@
                         <span class="form__error">телефон в формате: +7 (900) 000-00-00</span>
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="url" name="url" pattern="^https?:\/\/(w{3}\.)?(([a-zA-Z0-9]+\.[a-zA-Z]{2})|(\d+\.\d+\.\d+\.\d+))\/?(:\d{2,5})?[A-Za-z0-9\/]+#?" placeholder="Ваш сайт" required/>
+                        <input class="form__input" type="url" name="url" pattern="^https?:\/\/(w{3}\.)?(([a-zA-Z0-9-]+\.[a-zA-Z]{2,})|(\d+\.\d+\.\d+\.\d+))(:?\/?(:\d{2,5})?[A-Za-z0-9\/]+)?#?" placeholder="Ваш сайт" required/>
                         <span class="form__error">URL в формате: http://mysite.ru</span>
                     </div>
                     <button class="form__button" type="submit">Отправить</button>
@@ -39,6 +39,6 @@
             </form>
         </div>
     </main>
-    <script src="main.31aa8026d22272c4a9f8.js?f8ad20d3d9ab1a43a0d4"></script>     
+    <script src="main.31aa8026d22272c4a9f8.js?34f52162ffb459d58da6"></script>     
 </body>
 </html>
