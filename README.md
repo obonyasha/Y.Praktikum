@@ -1,6 +1,7 @@
 # Регулярные выражения  
 ## Степанова Татьяна  
-## https://github.com/obonyasha/regular_expressions
+## Репозиторий проекта https://github.com/obonyasha/regular_expressions
+## Публикация проекта https://obonyasha.github.io/regular_expressions
 
 Проект представляет собой форму, для которой настроена  валидация полей с помощью регулярных выражений. Работа выполнена в рамках отработки изученных тем: Регулярные выражения, Основы технологии Git.
 В проекте использованы такие технологии как HTML, CSS, GIT, Webpack.
